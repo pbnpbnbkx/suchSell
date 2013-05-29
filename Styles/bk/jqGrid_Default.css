@@ -1,0 +1,13 @@
+﻿.ui-jqgrid .ui-jqgrid-titlebar{height:16px;}
+
+.ui-jqgrid .ui-jqgrid-htable th div { height:30px;    font-size:1.4em;}
+
+.ui-jqgrid .ui-jqgrid-btable tr{  font-size:1.4em;  height:30px;}
+
+.ui-jqgrid .ui-jqgrid-btable a{	color: #3366CC;	text-decoration: underline;}
+
+.ui-jqgrid .ui-jqgrid-btable a:hover{ color: #CC3333;	text-decoration: underline;}
+
+.ui-jqgrid .ui-jqgrid-btable .cellMoney{ text-align :right;}
+
+.ui-jqgrid tr.jqgrow td {white-space:normal;}

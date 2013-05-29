@@ -1,0 +1,319 @@
+﻿.wizard-steps {
+    clear: both;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: relative;
+}
+.wizard-steps div {
+    position: relative;
+}
+.wizard-steps a {
+    -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #F0EEE3;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    color: #666666;
+    display: block;
+    float: left;
+    font-size: 11px;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 18px;
+    padding-bottom: 0;
+    padding-left: 3px;
+    padding-right: 10px;
+    padding-top: 0;
+    position: relative;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+    width: auto;
+}
+.wizard-steps a:before {
+    border-bottom-color: #F0EEE3;
+    border-bottom-style: solid;
+    border-bottom-width: 12px;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: transparent;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 12px;
+    border-top-color: #F0EEE3;
+    border-top-style: solid;
+    border-top-width: 12px;
+    content: "";
+    height: 0;
+    left: -12px;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.wizard-steps a:after {
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 12px;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #F0EEE3;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 12px;
+    border-top-color: transparent;
+    border-top-style: solid;
+    border-top-width: 12px;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -12px;
+    top: 0;
+    width: 0;
+}
+.wizard-steps span {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #FFFFFF;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-bottom-color: #CCCCCC;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #CCCCCC;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 2px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: #CCCCCC;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 2px;
+    border-top-color: #CCCCCC;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    color: #CCCCCC;
+    display: block;
+    float: left;
+    font-size: 10px;
+    line-height: 15px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 5px;
+    margin-top: 2px;
+    text-align: center;
+    width: 15px;
+}
+.wizard-steps .completed-step a {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #A3C1C9;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    color: #163038;
+}
+.wizard-steps .completed-step a:before {
+    border-bottom-color: #A3C1C9;
+    border-bottom-style: solid;
+    border-bottom-width: 12px;
+    border-top-color: #A3C1C9;
+    border-top-style: solid;
+    border-top-width: 12px;
+}
+.wizard-steps .completed-step a:after {
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #A3C1C9;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 12px;
+}
+.wizard-steps .completed-step span {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom-color: #163038;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #163038;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 2px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: #163038;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 2px;
+    border-top-color: #163038;
+    border-top-style: solid;
+    border-top-width: 2px;
+    color: #163038;
+    text-shadow: none;
+}
+.wizard-steps .active-step a {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #163038;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    color: #A3C1C9;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+.wizard-steps .active-step a:before {
+    border-bottom-color: #163038;
+    border-bottom-style: solid;
+    border-bottom-width: 12px;
+    border-top-color: #163038;
+    border-top-style: solid;
+    border-top-width: 12px;
+}
+.wizard-steps .active-step a:after {
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #163038;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 12px;
+}
+.wizard-steps .active-step span {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom-color: #A3C1C9;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #A3C1C9;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 2px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: #A3C1C9;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 2px;
+    border-top-color: #A3C1C9;
+    border-top-style: solid;
+    border-top-width: 2px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+    color: #163038;
+    text-shadow: none;
+}
+.wizard-steps .completed-step:hover a, .wizard-steps .active-step:hover a {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #8F061E;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+.wizard-steps .completed-step:hover span, .wizard-steps .active-step:hover span {
+    color: #8F061E;
+}
+.wizard-steps .completed-step:hover a:before, .wizard-steps .active-step:hover a:before {
+    border-bottom-color: #8F061E;
+    border-bottom-style: solid;
+    border-bottom-width: 12px;
+    border-top-color: #8F061E;
+    border-top-style: solid;
+    border-top-width: 12px;
+}
+.wizard-steps .completed-step:hover a:after, .wizard-steps .active-step:hover a:after {
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #8F061E;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 12px;
+}

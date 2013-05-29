@@ -1,0 +1,40 @@
+﻿.show_message
+        {
+            border:1px solid #d19405;
+            background-color:#feeebd;
+            color:Black;
+            z-index: 1003;
+            position:absolute;
+        }
+        .input_style
+        {
+            background:#ddd;
+            background:linear-gradient(top,#fff,#ddd); 
+            background:-moz-linear-gradient(top,#fff,#ddd);
+            background:-webkit-linear-gradient(top,#fff,#ddd);
+            background:-ms-linear-gradient(top,#fff,#ddd);
+        }
+        .err2
+        {
+            background:#fcefa1;
+            background:linear-gradient(top,#fff,#fcefa1); 
+            background:-moz-linear-gradient(top,#fff,#fcefa1);
+            background:-webkit-linear-gradient(top,#fff,#fcefa1);
+            background:-ms-linear-gradient(top,#fff,#fcefa1);
+        }
+        .err3
+        {
+            background:#fef1ec;
+            background:linear-gradient(top,#fff,#fef1ec); 
+            background:-moz-linear-gradient(top,#fff,#fef1ec);
+            background:-webkit-linear-gradient(top,#fff,#fef1ec);
+            background:-ms-linear-gradient(top,#fff,#fef1ec);
+        }
+        .err4
+        {
+            background:#8bd83b;
+            background:linear-gradient(top,#fff,#8bd83b); 
+            background:-moz-linear-gradient(top,#fff,#8bd83b);
+            background:-webkit-linear-gradient(top,#fff,#8bd83b);
+            background:-ms-linear-gradient(top,#fff,#8bd83b);
+        }

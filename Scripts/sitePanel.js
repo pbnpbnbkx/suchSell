@@ -1,0 +1,3 @@
+﻿$(function () {
+    $("#sitePanel").html(siteMap);
+});

@@ -1,0 +1,108 @@
+﻿.auction_item
+{
+    list-style-type:none;
+    float:left;
+    width:280px; 
+    height:540px; 
+    padding:10px; 
+    margin: 1px 1px 1px -5px;
+    float:left; 
+    text-align:left; 
+}
+.auction_item:hover
+{
+    list-style-type:none;
+    float:left;
+    width:280px; 
+    height:540px; 
+    padding: 15px;
+    margin: 1px 1px 1px -5px;
+    float:left; 
+    text-align:left; 
+}
+
+.BOX {
+   float:left;
+   width:280px;
+   height:auto;
+   margin:-10px 14px ;
+   }
+   
+.BOXa {
+   float:left;
+   width:280px;
+   height:auto;
+   margin:-10px 14px;
+  
+}
+
+
+.BOX-1 {
+   width:280px;
+   height:240px;  
+   border:#CCC 1px solid; 
+}
+
+.BOX-1 img{
+   width:280px;
+   height:240px;
+   border:#CCC 1px solid; 
+}  
+
+.BOX-2 {
+   width:340px;
+   height:160px;  
+}
+
+
+
+.BOX-3 {
+   width:320px;
+   height:auto; 
+   overflow:hidden;
+   text-overflow:ellipsis; 
+}
+
+
+
+.P {
+	font-family:新細明體;
+	font-weight: 500;
+	font-size:12px;
+	color:#333;
+	table-layout:fixed;
+	WORD-BREAK: break-all; 
+	WORD-WRAP: break-word;
+}
+
+.P2 {
+	font-family:新細明體;
+	font-size:2em;
+	font-weight:600;
+	color:#6465af;
+}
+.P3 {
+	font-size:15px;
+	font-weight:700;
+	color:#F00;
+}
+
+.P4{
+	color:#06F;
+	font-size:1.5em;
+}
+
+.showprice
+{
+  font-size:1.5em;
+  color:Red;  
+  font-weight:bold;
+}
+
+#container {
+  width:98%;
+  height:auto;
+  margin:auto;
+}
+
+

@@ -1,0 +1,75 @@
+﻿.input-text-small, .input-select-small{
+width: 270px;
+}
+
+.input-select select 
+{
+line-height: 28px;
+background: white;
+font: 14px "Lucida Sans Unicode", "Lucida Grande", "Arial", sans-serif;
+color: #5A5A5A;
+padding: 4px 4px 4px 7px;
+height: 34px;
+border: 1px solid silver;
+width: 250px;
+margin: 0;
+background: white url("../images/form/input-bg.gif") repeat-x;
+border-radius: 5px;
+}
+
+.input-text input {
+background: white url("../images/form/input-bg.gif") repeat-x;
+font: 14px "Lucida Sans Unicode", "Lucida Grande", "Arial", sans-serif;
+color: #5A5A5A;
+padding: 0 7px;
+height: 32px;
+border: 1px solid silver;
+width: 250px;
+margin: 0;
+display: block;
+border-radius: 5px;
+}
+
+.input-text input:hover, .input-select select:hover {
+background: #FFF;
+}
+
+label {
+cursor: pointer;
+display: inline-block;
+}
+
+.label-text {
+display: inline-block;
+vertical-align: top;
+font: normal 14px/24px "Lucida Sans Unicode","Lucida Grande", "Arial", sans-serif;
+color: #222;
+padding-top: 4px;
+}
+
+.input-row  
+{
+display :inline-block;
+margin: 0;
+}
+
+.input-left {
+width:150px;
+display: inline-block;
+/*text-align: right;*/
+vertical-align: top;
+}
+
+.input-right
+{
+max-width:680px;
+display: inline-block;
+vertical-align: top;
+}
+
+.input-row  span{display :inline-block;}
+
+.input-required{ background-color:Red;}
+
+
+
